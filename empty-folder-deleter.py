@@ -16,6 +16,7 @@ for folder in folders:
     has_assets = editor_asset_lib.does_directory_have_assets(folder)
 
     if not has_assets:
+        editor_asset_lib.delete_directory(folder)
         deleted_folders += 1
         unreal.log("Folder {} without assets was deleted". format(folder))
 
