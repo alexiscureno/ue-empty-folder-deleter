@@ -17,7 +17,7 @@ To use this script:
 
 1. Modify the ```source_dir variable``` (in the script) to specify the directory path where you want to delete empty folders. For example, if you want to delete empty folders within the /Game/Test directory, set source_dir to "/Game/Test".
 2. Open Unreal Engine.
-3. In the main menu, Select ``` File > Execute Python Script ``` and look for the Python Script location. 
+3. In the main menu, Select **File > Execute Python Script** and look for the Python Script location. 
 
 # Notes
 * This script will delete any empty folders it finds within the specified directory and its subfolders. Be sure to double-check the specified directory before running the script and be sure to save the project before executing the script.
